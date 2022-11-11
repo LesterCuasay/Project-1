@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Quicksand&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,5 +7,9 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Quicksand',sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #bac7be;
+    background: #6f6866;
 }
