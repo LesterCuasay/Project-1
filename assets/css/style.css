@@ -7,16 +7,3 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
-
-.flex-container {
-    display: flex;
-    background-color: #6f6866;
-}
-
-.item {
-    width: 100px;
-    height: 100px;
-    background: #6f6866;
-    color: #071108;
-    margin: 10px;
-}
