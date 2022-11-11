@@ -7,9 +7,67 @@
 }
 
 body {
-    font-family: 'Quicksand',sans-serif;
+    font-family: 'Kanit',sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #bac7be;
     background: #6f6866;
 }
+
+h1,
+h2 {
+    font-family: 'Quicksand',sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Container for the whole page */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+/* navbar and logo */
+.navbar {
+    color: #bac7be;
+    height: 60px;
+}
+
+.navbar .logo {
+    font-size: xx-large;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar a {
+    color:#bac7be;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    border-bottom: 1px solid #bac7be;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
