@@ -26,6 +26,18 @@ ul {
     list-style-type: none;
 }
 
+.welcome {
+    text-align: center;
+    font-size: 200%;
+    margin: 20px 0 1.5px 0;
+}
+
+hr {
+    border-top: 1px solid #bac7be;
+    width: 25%;
+    margin: 0 auto;
+}
+
 /* Container for the whole page */
 .container {
     max-width: 1400px;
@@ -41,7 +53,7 @@ ul {
 }
 
 .navbar .logo {
-    font-size: xx-large;
+    font-size: 280%;
     font-weight: bold;
     letter-spacing: 2px;
 }
