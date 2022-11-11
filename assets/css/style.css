@@ -136,21 +136,10 @@ ul {
 }
 
 /* main index content */
-
 .boxes .container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    
+    flex-wrap:wrap;  
 }
-.boxes div{
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: center;
-    width: 100%;
-}
-
 .box {
     flex: 1;
     background: #f3752b;
@@ -166,4 +155,8 @@ ul {
     max-height: 333px;
     min-height: 200px;
     object-fit: cover;
+}
+
+.box h2, p {
+    text-align: center;
 }
