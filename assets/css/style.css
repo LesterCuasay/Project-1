@@ -98,8 +98,22 @@ ul {
     height: 600px;
     width: 100%;
     background: url(../images/hero-image.jpg) no-repeat center center;
+
+    /* creates the level of zoom for hero image */
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
 
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
 .cover-text {
     font-size: 100%;
     font-family: 'Quicksand', sans-serif;
