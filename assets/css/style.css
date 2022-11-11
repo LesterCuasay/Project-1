@@ -141,6 +141,7 @@ ul {
     flex-wrap:wrap;  
 }
 .box {
+    display:flex;
     flex: 1;
     background: #f3752b;
     color: #071108;
@@ -148,7 +149,10 @@ ul {
     margin: 20px 10px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, .6);
     padding: 15px 20px;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 .box img {
     height: 15vw;
