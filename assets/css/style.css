@@ -164,3 +164,30 @@ ul {
 .box h2, p {
     text-align: center;
 }
+
+/* footer */
+
+footer {
+    height:150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #bac7be;
+}
+
+footer div > p{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size:120%;
+}
