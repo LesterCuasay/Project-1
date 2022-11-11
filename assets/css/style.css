@@ -78,5 +78,43 @@ ul {
 /* hero image */
 
 .hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
 
+    position: relative;
+}
+
+.covertext, .covertext h2 {
+    color: #071108;
+}
+
+.covertext h3 {
+    text-align: left;
+    font-size: 90%;
+}
+
+.hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/hero-image.jpg) no-repeat center center;
+}
+
+.covertext {
+    font-size: 100%;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 2px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(243,117,43, .8);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
 }
