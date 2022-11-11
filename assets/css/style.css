@@ -142,7 +142,7 @@ ul {
 }
 .box {
     display:flex;
-    flex: 1;
+    flex: 1 1 600px;
     background: #f3752b;
     color: #071108;
     border-radius: 10px;
