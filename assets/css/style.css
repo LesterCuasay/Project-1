@@ -71,3 +71,12 @@ ul {
     margin-left: 20px;
 }
 
+.active {
+    border-bottom: 1px solid #bac7be;
+}
+
+/* hero image */
+
+.hero-outer {
+
+}
