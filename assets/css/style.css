@@ -221,3 +221,20 @@ footer div > p{
 .photos > img {
     width: 100%;
 }
+
+/* back to top */
+
+.back-to-top {
+    text-align: center;
+}
+
+.back-to-top a {
+    text-decoration: none;
+    color: #bac7be;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.back-to-top i {
+    padding: 5px;
+}
