@@ -3,7 +3,7 @@
 html {
     scroll-behavior: smooth;
   }
-  
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -42,10 +42,21 @@ ul {
     max-height: 100%;
 }
 
+@media screen and (max-width: 720px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
 /* navbar and logo */
 .navbar {
     color: #bac7be;
-    height: 60px;
+}
+
+@media screen and (min-width: 720px) {
+    .navbar {
+        height: 60px;
+    }
 }
 
 .navbar .logo {
@@ -69,7 +80,6 @@ ul {
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    flex-direction: row;
 }
 
 .navbar ul {
@@ -188,6 +198,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 4em;
 
 }
 
@@ -195,7 +206,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5%;
+    margin: 0 2em;
 }
 
 .social-networks i {
@@ -233,7 +244,8 @@ footer div > p{
 /* back to top */
 
 .back-to-top {
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .back-to-top a {
@@ -254,7 +266,6 @@ button {
     padding: 15px 30px;
     cursor: pointer;
     font-weight: 600;
-    margin-right: 16px;
     transition: 500ms ease all;
 }
 
@@ -397,9 +408,4 @@ input[type="checkbox"]:focus {
         display: block;
         column-count: 2;
     }
-}
-
-/* For small screen sizes from 800px wide and down */
-@media screen and (max-width: 800px){
-
 }
