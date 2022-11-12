@@ -242,3 +242,21 @@ footer div > p{
 .back-to-top i {
     padding: 5px;
 }
+
+.back-to-top button {
+    background-color: #f3752b;
+    color: #bac7be;
+    border-radius: 30px;
+    text-align: center;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 16px;
+    transition: 500ms ease all;
+}
+
+.back-to-top button:hover {
+    background-color: #f3752b;
+    transform: scale(0.98);
+}
