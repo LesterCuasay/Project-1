@@ -189,17 +189,21 @@ footer {
 }
 
 .social-networks {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .social-networks > li {
-    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
 }
 
 .social-networks i {
     font-size: 160%;
-    margin: 1%;
-    padding: 5%;
     color: #bac7be;
 }
 
