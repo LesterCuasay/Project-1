@@ -234,9 +234,8 @@ footer div > p{
 
 .back-to-top a {
     text-decoration: none;
-    color: #bac7be;
-    font-size: 200%;
-    font-weight: bold;
+    color: #071108;
+    font-size: 120%;
 }
 
 .back-to-top i {
@@ -245,7 +244,6 @@ footer div > p{
 
 .back-to-top button {
     background-color: #f3752b;
-    color: #bac7be;
     border-radius: 30px;
     text-align: center;
     border: none;
@@ -262,3 +260,12 @@ footer div > p{
 }
 
 /* form */
+
+.form-bg {
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
