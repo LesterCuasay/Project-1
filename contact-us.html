@@ -35,29 +35,34 @@
     </nav>
 
     <div class="form-bg" style="background-image: url(assets/images/rope2.jpg);">
-        <div class="contact-us">
-            <h2>Contact Us!</h2>
-            <form action="thank-you.html">
-                <div class="input">
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" required>
+        <div class="container-contact">
+            <div class="contact-us">
+                <div class="contact-us-heading">
+                    <h2>Contact Us!</h2>
+                    <form action="thank-you.html">
+                        <div class="input-box">
+                            <input type="text" placeholder="Name" required>
+                        </div>
+                        <div class="input-box">
+                            <input type="search" placeholder="Email" required>
+                        </div>
+                        <p>Have you got any questions?</p>
+                        <div class="input-box">
+                            <textarea name="feedback" id="" cols="30" rows="10" maxlength="1000"
+                                style="resize: none;"></textarea>
+                        </div>
+                        <div class="input-box">
+                            <input type="checkbox" required>
+                            <p>By ticking this box, you understand the information you enter will not be sent
+                                anywhere.</p>
+                        </div>
+                        <div class="input-box">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
                 </div>
-                <div class="input">
-                    <label for="email">Email Address</label>
-                    <input type="email" name="email" id="email" required>
-                </div>
-                <div class="input">
-                    <label for="feedback">Have you got any questions?</label>
-                    <textarea name="feedback" id="" cols="30" rows="10" maxlength="1000"></textarea>
-                </div>
-                <div>
-                    <label for="confirm">By ticking this box, you understand the information you enter will not be sent anywhere.</label>
-                    <input type="checkbox" id="confirm" name="confirm" value="confirm" required>
-                </div>
-                <input type="submit" value="submit">
-            </form>
+            </div>
         </div>
-
     </div>
 
 

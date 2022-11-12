@@ -242,7 +242,7 @@ footer div > p{
     padding: 5px;
 }
 
-.back-to-top button {
+button {
     background-color: #f3752b;
     border-radius: 30px;
     text-align: center;
@@ -254,7 +254,7 @@ footer div > p{
     transition: 500ms ease all;
 }
 
-.back-to-top button:hover {
+button:hover {
     background-color: #f3752b;
     transform: scale(0.98);
 }
@@ -268,4 +268,86 @@ footer div > p{
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 20px;
+}
+
+.container-contact {
+    max-width: 700px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 32px;
+}
+.container-contact .contact-us {
+    display: flex;
+    width: 360px;
+    background-color: rgba(246,192,208, .6);
+    margin: 0 auto;
+    border-radius: 8%;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .6);
+}
+
+.contact-us-heading {
+    padding: 40px 40px 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-us-heading h2 {
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #071108;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contact-us p {
+    color: #071108;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+input, textarea {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 4px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #f3752b;
+    transition: 500ms ease all;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 1px 0 0 #071108;
+    border-color: #071108;
+}
+textarea:focus {
+    outline: none;
+    box-shadow: 0 1px 0 0 #071108;
+    border-color: #071108;
+}
+
+input[type="checkbox"] {
+    width: 75px;
+    height: 75px;
+    margin-right: 20px;
+}
+input[type="checkbox"]:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.input-box button {
+    margin: 0 auto;
 }
