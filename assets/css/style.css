@@ -216,14 +216,22 @@ footer div > p{
 /* gallery */
 
 .photos {
-    clear: both;
-    line-height: 0;
-    column-count: 3;
-    column-gap: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.photos > li {
+    flex-basis: 450px;
+    position: relative;
 }
 
-.photos > img {
-    width: 100%;
+.photos li img {
+    max-width: 100%;
+    height: 99%;
+    border-radius: 10px;
+    vertical-align: middle;
+    object-fit: cover;
 }
 
 /* back to top */
