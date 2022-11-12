@@ -33,49 +33,47 @@
             </ul>
         </div>
     </nav>
-    <div class="container">
-        <h1>Thank you!</h1>
-        <p>Although your information has not been sent anywhere; here is what you entered.</p>
+
+    <div class="form-bg" style="background-image: url(assets/images/rope2.jpg);">
+        <div class="container-contact">
+            <!--Thank you-->
+            <div class="thank-you">
+                <h2>Thank you!</h2>
+                <p>Although your information has not been sent anywhere; here is what you entered.</p>
+
+                <div class="results">
+                    <!--Script code was copied from https://stackoverflow.com/a/51123522-->
+                    <script>
+                        function getParams() {
+                            var idx = document.URL.indexOf('?');
+                            var params = new Array();
+                            if (idx != -1) {
+                                var pairs = document.URL.substring(idx + 1, document.URL.length).split('&');
+                                for (var i = 0; i < pairs.length; i++) {
+                                    nameVal = pairs[i].split('=');
+                                    params[nameVal[0]] = nameVal[1];
+                                }
+                            }
+                            return params;
+                        }
+                        params = getParams();
+                        name = unescape(params["name"]);
+                        email = unescape(params["email"]);
+                        feedback = unescape(params["feedback"]);
+                        document.write("Name: " + name + "<br>");
+                        document.write("E-mail: " + email + "<br>");
+                        document.write("Feedback: " + feedback + "<br>");
+                    </script>
+                </div>
+
+            </div>
+
+        </div>
     </div>
-
-    <!--Script code was copied from https://stackoverflow.com/a/51123522-->
-    <div class="results">
-        <script>
-            function getParams() {
-                var idx = document.URL.indexOf('?');
-                var params = new Array();
-                if (idx != -1) {
-                    var pairs = document.URL.substring(idx + 1, document.URL.length).split('&');
-                    for (var i = 0; i < pairs.length; i++) {
-                        nameVal = pairs[i].split('=');
-                        params[nameVal[0]] = nameVal[1];
-                    }
-                }
-                return params;
-            }
-            params = getParams();
-            name = unescape(params["name"]);
-            email = unescape(params["email"]);
-            feedback = unescape(params["feedback"]);
-            document.write("Name: " + name + "<br>");
-            document.write("E-mail: " + email + "<br>");
-            document.write("Feedback: " + feedback + "<br>");
-        </script>
-    </div>
-
-
-
-
-
-
-
-
-
-
 
 
     <div class="back-to-top">
-        <button><a href="#">Back to the top! <i class="fa-solid fa-arrow-up"></i> </a></button>
+        <button><a href="index.html">Back to the homepage! <i class="fa-solid fa-house"></i> </a></button>
     </div>
     <footer>
         <ul class="social-networks">
