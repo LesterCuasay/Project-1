@@ -375,8 +375,27 @@ input[type="checkbox"]:focus {
 
 @media screen and (max-width: 1200px) {
 
+    .boxes .container {
+        display: block;
+        text-align: center;
+    }
+}
+
 
 /* For Medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
+
+    .cover-text {
+        left: 0;
+    }
+
+    .photos {
+        display: block;
+        column-count: 2;
+    }
+}
+
+/* For small screen sizes from 800px wide and down */
+@media screen and (max-width: 800px){
 
 }
