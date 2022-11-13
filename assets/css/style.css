@@ -294,7 +294,6 @@ button:hover {
     align-items: center;
     margin: 0 auto;
     padding: 32px;
-    display: flex;
 }
 
 .container-contact .contact-us {
@@ -381,11 +380,12 @@ input[type="checkbox"]:focus {
 /* video */
 
 .video {
-    margin-left: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
 
 /* thank you */
-
 
 .thank-you h2 {
     text-align: center;
