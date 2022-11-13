@@ -107,7 +107,7 @@ ul {
 .hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/hero-image.jpg) no-repeat center center;
+    background: url(../images/hero-image.webp) no-repeat center center;
 
     /* creates the level of zoom for hero image */
     animation-name: hero-zoom;
@@ -280,7 +280,7 @@ button:hover {
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 20px;
-    background-image: url(../images/rope2.jpg);
+    background-image: url(../images/rope2.webp);
 }
 
 .container-contact {
@@ -418,6 +418,11 @@ input[type="checkbox"]:focus {
         flex-direction: column;
         margin-bottom: 10px;
     }
+
+    .hero-image {
+        width: 700px;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (min-width: 720px) {
@@ -455,5 +460,9 @@ input[type="checkbox"]:focus {
     .back-to-top button {
         font-size: 10px;
         
+    }
+
+    .welcome {
+        font-size: 160%;
     }
 }
