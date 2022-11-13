@@ -294,6 +294,7 @@ button:hover {
     align-items: center;
     margin: 0 auto;
     padding: 32px;
+    display: flex;
 }
 
 .container-contact .contact-us {
@@ -377,6 +378,12 @@ input[type="checkbox"]:focus {
     margin: 0 auto;
 }
 
+/* video */
+
+.video {
+    margin-left: 10px;
+}
+
 /* thank you */
 
 
@@ -427,6 +434,13 @@ input[type="checkbox"]:focus {
         width: 700px;
         margin: 0 auto;
     }
+    .form-bg {
+        height: 450px
+    }
+
+    .video {
+        width: 400px;
+    }
 }
 
 @media screen and (min-width: 720px) {
@@ -468,5 +482,9 @@ input[type="checkbox"]:focus {
 
     .welcome {
         font-size: 160%;
+    }
+
+    .video {
+        width: 300px;
     }
 }
