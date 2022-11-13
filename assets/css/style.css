@@ -2,7 +2,7 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 * {
     box-sizing: border-box;
@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    font-family: 'Kanit',sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #bac7be;
@@ -20,7 +20,7 @@ body {
 
 h1,
 h2 {
-    font-family: 'Quicksand',sans-serif;
+    font-family: 'Quicksand', sans-serif;
     text-transform: uppercase;
 }
 
@@ -42,21 +42,9 @@ ul {
     max-height: 100%;
 }
 
-@media screen and (max-width: 720px) {
-    .container {
-        flex-direction: column;
-    }
-}
-
 /* navbar and logo */
 .navbar {
     color: #bac7be;
-}
-
-@media screen and (min-width: 720px) {
-    .navbar {
-        height: 60px;
-    }
 }
 
 .navbar .logo {
@@ -66,7 +54,7 @@ ul {
 }
 
 .navbar a {
-    color:#bac7be;
+    color: #bac7be;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
@@ -75,6 +63,7 @@ ul {
 .navbar a:hover {
     border-bottom: 1px solid #bac7be;
 }
+
 .navbar .container {
     display: flex;
     justify-content: space-between;
@@ -105,7 +94,8 @@ ul {
     position: relative;
 }
 
-.cover-text, .cover-text h2 {
+.cover-text,
+.cover-text h2 {
     color: #071108;
 }
 
@@ -130,10 +120,12 @@ ul {
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.1);
     }
 }
+
 .cover-text {
     font-size: 100%;
     font-family: 'Quicksand', sans-serif;
@@ -145,7 +137,7 @@ ul {
     padding-top: 20px;
     padding-left: 10px;
 
-    background-color: rgba(243,117,43, .8);
+    background-color: rgba(243, 117, 43, .8);
 
     bottom: 30px;
     right: 150px;
@@ -156,10 +148,11 @@ ul {
 /* main index content */
 .boxes .container {
     display: flex;
-    flex-wrap:wrap;  
+    flex-wrap: wrap;
 }
+
 .box {
-    display:flex;
+    display: flex;
     flex: 1 1 600px;
     background: #f3752b;
     color: #071108;
@@ -183,9 +176,9 @@ ul {
     text-align: center;
 }
 
-.box p{
+.box p {
     text-align: center;
-    font-size: large;    
+    font-size: large;
 }
 
 /* footer */
@@ -202,7 +195,7 @@ footer {
 
 }
 
-.social-networks > li {
+.social-networks>li {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -214,10 +207,10 @@ footer {
     color: #bac7be;
 }
 
-footer div > p{
+footer div>p {
     text-align: center;
     padding-bottom: 50px;
-    font-size:120%;
+    font-size: 120%;
 }
 
 /* gallery */
@@ -228,7 +221,8 @@ footer div > p{
     justify-content: center;
     gap: 10px;
 }
-.photos > li {
+
+.photos>li {
     flex-basis: 450px;
     position: relative;
 }
@@ -293,10 +287,11 @@ button:hover {
     margin: 0 auto;
     padding: 32px;
 }
+
 .container-contact .contact-us {
     display: flex;
     width: 360px;
-    background-color: rgba(246,192,208, .6);
+    background-color: rgba(246, 192, 208, .6);
     margin: 0 auto;
     border-radius: 8%;
     box-shadow: 0 3px 5px rgba(0, 0, 0, .6);
@@ -331,7 +326,8 @@ button:hover {
 
 }
 
-input, textarea {
+input,
+textarea {
     font-size: 15px;
     font-weight: 400;
     padding: 4px 0;
@@ -346,6 +342,7 @@ input:focus {
     box-shadow: 0 1px 0 0 #071108;
     border-color: #071108;
 }
+
 textarea:focus {
     outline: none;
     box-shadow: 0 1px 0 0 #071108;
@@ -357,6 +354,7 @@ input[type="checkbox"] {
     height: 75px;
     margin-right: 20px;
 }
+
 input[type="checkbox"]:focus {
     outline: none;
     box-shadow: none;
@@ -407,5 +405,40 @@ input[type="checkbox"]:focus {
     .photos {
         display: block;
         column-count: 2;
+    }
+}
+
+/* For Small screen sizes from 720px wide and down */
+
+@media screen and (max-width: 720px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .navbar {
+        height: 60px;
+    }
+}
+
+/* For Smaller screen sizes from 375px wide and down */
+
+@media screen and (max-width: 375px) {
+    .container .logo {
+        font-size: 220%;
+    }
+
+    .box img {
+        width: 90%;
+    }
+
+    .container-contact .contact-us {
+        width: 300px;
+
+    }
+
+    .contact-us p {
+        font-size: 16px
     }
 }
