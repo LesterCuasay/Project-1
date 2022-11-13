@@ -172,12 +172,14 @@ ul {
     object-fit: cover;
 }
 
-.box h2 {
+.box h3 {
     text-align: center;
+    font-size: x-large;
+    text-decoration: underline;
 }
 
 .box p {
-    text-align: center;
+    text-align: left;
     font-size: large;
 }
 
@@ -240,6 +242,7 @@ footer div>p {
 .back-to-top {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .back-to-top a {
@@ -271,12 +274,13 @@ button:hover {
 /* form */
 
 .form-bg {
-    height: 700px;
+    height: 540px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 20px;
+    background-image: url(../images/rope2.jpg);
 }
 
 .container-contact {
@@ -298,7 +302,7 @@ button:hover {
 }
 
 .contact-us-heading {
-    padding: 40px 40px 20px;
+    padding: 10px 20px 5px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -319,10 +323,10 @@ button:hover {
 
 .contact-us p {
     color: #071108;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -335,6 +339,10 @@ textarea {
     border: none;
     border-bottom: 2px solid #f3752b;
     transition: 500ms ease all;
+}
+
+textarea {
+    height: 50px
 }
 
 input:focus {
@@ -401,11 +409,6 @@ input[type="checkbox"]:focus {
     .cover-text {
         left: 0;
     }
-
-    .photos {
-        display: block;
-        column-count: 2;
-    }
 }
 
 /* For Small screen sizes from 720px wide and down */
@@ -413,6 +416,7 @@ input[type="checkbox"]:focus {
 @media screen and (max-width: 720px) {
     .container {
         flex-direction: column;
+        margin-bottom: 10px;
     }
 }
 
@@ -434,11 +438,22 @@ input[type="checkbox"]:focus {
     }
 
     .container-contact .contact-us {
-        width: 300px;
+        width: 275px;
 
     }
 
     .contact-us p {
         font-size: 16px
+    }
+
+    .results {
+        text-align:left;
+        font-size: 20px;
+
+    }
+
+    .back-to-top button {
+        font-size: 10px;
+        
     }
 }
