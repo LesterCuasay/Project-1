@@ -14,8 +14,8 @@ body {
     font-family: 'Kanit', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #bac7be;
-    background: #6f6866;
+    color: #131112;
+    background: #929AA0;
 }
 
 h1,
@@ -44,7 +44,7 @@ ul {
 
 /* navbar and logo */
 .navbar {
-    color: #bac7be;
+    color: #131112;
 }
 
 .navbar .logo {
@@ -54,14 +54,14 @@ ul {
 }
 
 .navbar a {
-    color: #bac7be;
+    color: #131112;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .navbar a:hover {
-    border-bottom: 1px solid #bac7be;
+    border-bottom: 1px solid #131112;
 }
 
 .navbar .container {
@@ -81,7 +81,7 @@ ul {
 }
 
 .active {
-    border-bottom: 1px solid #bac7be;
+    border-bottom: 1px solid #131112;
 }
 
 /* hero image */
@@ -96,7 +96,7 @@ ul {
 
 .cover-text,
 .cover-text h2 {
-    color: #071108;
+    color: #131112;
 }
 
 .cover-text h3 {
@@ -137,7 +137,7 @@ ul {
     padding-top: 20px;
     padding-left: 10px;
 
-    background-color: rgba(243, 117, 43, .8);
+    background-color: rgba(244, 129, 62, .8);
 
     bottom: 30px;
     right: 150px;
@@ -154,8 +154,8 @@ ul {
 .box {
     display: flex;
     flex: 1 1 600px;
-    background: #f3752b;
-    color: #071108;
+    background: #F4813E;
+    color: #131112;
     border-radius: 10px;
     margin: 20px 10px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, .6);
@@ -181,6 +181,7 @@ ul {
 .box p {
     text-align: left;
     font-size: large;
+    font-weight: bold;
 }
 
 /* footer */
@@ -206,13 +207,14 @@ footer {
 
 .social-networks i {
     font-size: 160%;
-    color: #bac7be;
+    color: #131112;
 }
 
-footer div>p {
+footer div > p {
     text-align: center;
     padding-bottom: 50px;
     font-size: 120%;
+    font-weight: 600;
 }
 
 /* gallery */
@@ -250,7 +252,7 @@ footer div>p {
 }
 
 .back-to-top a, button {
-    background-color: #f3752b;
+    background-color: #F4813E;
     border-radius: 30px;
     text-align: center;
     border: none;
@@ -261,17 +263,17 @@ footer div>p {
 }
 
 button:hover {
-    background-color: #f3752b;
+    background-color: #F4813E;
     transform: scale(0.98);
 }
 
 .back-to-top a {
-    color: #071108;
+    color: #131112;
     text-decoration: none;
     font-size: 18px;
 }
 .back-to-top a:hover {
-    background-color: #f3752b;
+    background-color: #F4813E;
     transform: scale(0.98);
 }
 
@@ -299,7 +301,7 @@ button:hover {
 .container-contact .contact-us {
     display: flex;
     width: 360px;
-    background-color: rgba(246, 192, 208, .6);
+    background-color: rgba(244, 129, 62, .8);
     margin: 0 auto;
     border-radius: 8%;
     box-shadow: 0 3px 5px rgba(0, 0, 0, .6);
@@ -316,7 +318,7 @@ button:hover {
     font-weight: 500;
     text-align: center;
     margin-bottom: 15px;
-    color: #071108;
+    color: #131112;
 }
 
 .input-box {
@@ -326,7 +328,7 @@ button:hover {
 }
 
 .contact-us p {
-    color: #071108;
+    color: #131112;
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
@@ -341,7 +343,7 @@ textarea {
     padding: 4px 0;
     width: 100%;
     border: none;
-    border-bottom: 2px solid #f3752b;
+    border-bottom: 2px solid #FCFFF7;
     transition: 500ms ease all;
 }
 
@@ -351,14 +353,14 @@ textarea {
 
 input:focus {
     outline: none;
-    box-shadow: 0 1px 0 0 #071108;
-    border-color: #071108;
+    box-shadow: 0 1px 0 0 #131112;
+    border-color: #131112;
 }
 
 textarea:focus {
     outline: none;
-    box-shadow: 0 1px 0 0 #071108;
-    border-color: #071108;
+    box-shadow: 0 1px 0 0 #131112;
+    border-color: #131112;
 }
 
 input[type="checkbox"] {
@@ -390,17 +392,19 @@ input[type="checkbox"]:focus {
 .thank-you h2 {
     text-align: center;
     font-size: 200%;
+    color: #FCFFF7;
 }
 
 .thank-you p {
     text-align: center;
     padding: 20px;
     font-size: 120%;
+    color: #FCFFF7;
 }
-
 .results {
     font-size: 180%;
     padding: 30px;
+    color: #FCFFF7;
 }
 
 /* For larger to medium screen size from 1200px wide and down */
