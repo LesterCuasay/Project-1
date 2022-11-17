@@ -187,6 +187,7 @@ For more information about Forking, click on this [GitHub Guide](https://docs.gi
 ## __Credits__
 ___
 
+ - Hero Image was inspired from the [Love Running](https://github.com/LesterCuasay/Love-Running-Essentials-Project) CI Project.
  - The script used to pass data from contact.html to thank-you.html can be found [here](https://stackoverflow.com/a/51123522).
  - All Images used for the website are from [Pexels](https://www.pexels.com/).
  - The Icons on the logo and footer are from [Font Awesome](https://fontawesome.com/)
