@@ -100,8 +100,8 @@ ul {
 }
 
 .cover-text h3 {
-    text-align: left;
-    font-size: 90%;
+    text-align: center;
+    font-size: 150%;
 }
 
 .hero-image {
@@ -127,9 +127,11 @@ ul {
 }
 
 .cover-text {
-    font-size: 100%;
+    font-size: 180%;
     font-family: 'Quicksand', sans-serif;
+
     letter-spacing: 2px;
+    transform: translate(-50%, -50%);
 
     width: 300px;
     height: 200px;
@@ -139,14 +141,15 @@ ul {
 
     background-color: rgba(244, 129, 62, .8);
 
-    bottom: 30px;
-    right: 150px;
+    top: 50%;
+    left: 50%;
 
     position: absolute;
 }
 
+
 /* main index content */
-.boxes .container {
+.box-content .container {
     display: flex;
     flex-wrap: wrap;
 }
@@ -193,16 +196,13 @@ footer {
 .social-networks {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 4em;
-
+    justify-content: space-between;
+    margin: 3em;
 }
 
-.social-networks>li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 2em;
+.social-networks a {
+    margin: 0 1.5em;
+    text-decoration: none;
 }
 
 .social-networks i {
@@ -256,7 +256,7 @@ footer div > p {
     border-radius: 30px;
     text-align: center;
     border: none;
-    padding: 15px 30px;
+    padding: 10px 20px;
     cursor: pointer;
     font-weight: 600;
     transition: 500ms ease all;
@@ -290,7 +290,6 @@ button:hover {
 }
 
 .container-contact {
-    display: flex;
     max-width: 700px;
     height: 100%;
     justify-content: center;
@@ -408,20 +407,12 @@ input[type="checkbox"]:focus {
 
 @media screen and (max-width: 1200px) {
 
-    .boxes .container {
+    .box-content .container {
         display: block;
         text-align: center;
     }
 }
 
-
-/* For Medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
-
-    .cover-text {
-        left: 0;
-    }
-}
 
 /* For Small screen sizes from 720px wide and down */
 
@@ -487,5 +478,9 @@ input[type="checkbox"]:focus {
 
     .video {
         width: 300px;
+    }
+
+    .social-networks {
+        justify-content: center;
     }
 }
