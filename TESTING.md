@@ -43,6 +43,7 @@ To make sure that my website is running as intended, I will be using different t
 ### W3C HTML Validator
 ![html-index](assets/docs/html-index.png "html-index")
 
+***
 ## __Workouts (workout.html)__
 
 [workout.html](https://lestercuasay.github.io/Project-1/workout.html)
@@ -55,6 +56,7 @@ To make sure that my website is running as intended, I will be using different t
 ### W3C HTML Validator
 ![workout-validator](assets/docs/workout-validator.png "workout-validator")
 
+***
 ## __Gallery (gallery.html)__
 
 [gallery.html](https://lestercuasay.github.io/Project-1/gallery.html)
@@ -67,6 +69,7 @@ To make sure that my website is running as intended, I will be using different t
 ### W3C HTML Validator
 ![gallery-validator](assets/docs/gallery-validator.png "gallery-validator")
 
+***
 ## __Contact-Us (contact-us.html)__
 
 [contact-us.html](https://lestercuasay.github.io/Project-1/contact-us.html)
@@ -78,5 +81,19 @@ To make sure that my website is running as intended, I will be using different t
 
 ### W3C HTML Validator
 ![contact-us-validator](assets/docs/contact-us-validator.png "contact-us-validator")
+
+***
+## __Thank-you (thank-you.html)__
+
+[thank-you.html](https://lestercuasay.github.io/Project-1/thank-you.html?name=Lester+&email=lestercuasay%40live.co.uk&feedback=&confirm=confirm)
+
+### PC
+![lighthouse-thank-you](assets/docs/lighthouse-thank-you.png "light-house-thankyou")
+
+### Mobile
+![thank-you-mobile](assets/docs/thank-you-mobile.png "thank-you-mobile")
+
+### W3C HTML Validator
+![thank-you-validator](assets/docs/thank-you-validator.png "thank-you-validator")
             
 
