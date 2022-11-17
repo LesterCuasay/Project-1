@@ -290,12 +290,13 @@ button:hover {
 }
 
 .container-contact {
+    display: flex;
     max-width: 700px;
     height: 100%;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
     padding: 32px;
+    margin: 0 auto;
 }
 
 .container-contact .contact-us {
@@ -322,9 +323,8 @@ button:hover {
 }
 
 .input-box {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .contact-us p {
@@ -335,13 +335,16 @@ button:hover {
     text-align: left;
 
 }
-
+label {
+    font-size: 18px;
+    font-weight: bold;
+}
 input,
 textarea {
     font-size: 15px;
     font-weight: 400;
     padding: 4px 0;
-    width: 100%;
+    width: 86%;
     border: none;
     border-bottom: 2px solid #FCFFF7;
     transition: 500ms ease all;
@@ -364,9 +367,9 @@ textarea:focus {
 }
 
 input[type="checkbox"] {
-    width: 50px;
-    height: 50px;
-    margin-right: 20px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
 
 input[type="checkbox"]:focus {
