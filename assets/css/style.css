@@ -327,17 +327,11 @@ button:hover {
     text-align: center;
 }
 
-.contact-us p {
-    color: #131112;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    text-align: left;
-
-}
 label {
     font-size: 18px;
     font-weight: bold;
+    margin-bottom: 10px;
+    color: #131112;
 }
 input,
 textarea {
@@ -442,7 +436,7 @@ input[type="checkbox"]:focus {
         margin: 0 auto;
     }
     .form-bg {
-        height: 450px
+        height: 500px
     }
 
     .video {
@@ -458,7 +452,7 @@ input[type="checkbox"]:focus {
 
 /* For Smaller screen sizes from 375px wide and down */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
     .container .logo {
         font-size: 220%;
     }
@@ -468,11 +462,11 @@ input[type="checkbox"]:focus {
     }
 
     .container-contact .contact-us {
-        width: 275px;
+        width: 300px;
 
     }
 
-    .contact-us p {
+    .contact-us label {
         font-size: 16px
     }
 
