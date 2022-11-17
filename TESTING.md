@@ -48,7 +48,7 @@ To make sure that my website is running as intended, I will be using different t
 [workout.html](https://lestercuasay.github.io/Project-1/workout.html)
 
 ### PC
-![lighthouse-workout](assets/docs/lighthouse-workout.png "ighthouse-workout")
+![lighthouse-workout](assets/docs/lighthouse-workout.png "lighthouse-workout")
 ### Mobile
 ![workout-mobile](assets/docs/workout-mobile.png "workout-mobile")
 
@@ -60,12 +60,23 @@ To make sure that my website is running as intended, I will be using different t
 [gallery.html](https://lestercuasay.github.io/Project-1/gallery.html)
 
 ### PC
-![lighthouse-workout](assets/docs/lighthouse-workout.png "ighthouse-workout")
+![lighthouse-gallery](assets/docs/lighthouse-gallery.png "lighthouse-gallery")
 ### Mobile
-![workout-mobile](assets/docs/workout-mobile.png "workout-mobile")
+![gallery-mobile](assets/docs/gallery-mobile.png "gallery-mobile")
 
 ### W3C HTML Validator
-![workout-validator](assets/docs/workout-validator.png "workout-validator")
+![gallery-validator](assets/docs/gallery-validator.png "gallery-validator")
 
+## __Contact-Us (contact-us.html)__
+
+[contact-us.html](https://lestercuasay.github.io/Project-1/contact-us.html)
+
+### PC
+![lighthouse-contact-us](assets/docs/lighthouse-contact-us.png "lighthouse-contact-us")
+### Mobile
+![contact-us-mobile](assets/docs/contact-us-mobile.png "contact-us-mobile")
+
+### W3C HTML Validator
+![contact-us-validator](assets/docs/contact-us-validator.png "contact-us-validator")
             
 
