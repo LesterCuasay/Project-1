@@ -6,7 +6,7 @@ GyMotivate hopes to encourage people to better themselves by taking up physical 
 
 ## Live Site
 [GyMotivate](https://lestercuasay.github.io/Project-1/)
-___
+
 ## Repository
 https://github.com/LesterCuasay/Project-1
 ___
@@ -17,7 +17,7 @@ ___
 - [UX & Design](#ux--design)
     - [User Stories](#user-stories)
 - [Initial Concept](#initial-concept)
-    - [Wireframs](#wireframes)
+    - [Wireframes](#wireframes)
     - [Colour Scheme](#colour-scheme)
     - [Typography](#typography)
 - [Features](#features)
@@ -56,7 +56,6 @@ The goal of this website is to encourage the users to take up physical activity.
 
 ***
 ## __UX & Design__
-___
 
 ### User Stories
  - As a first time user, I want to be able to easily navigate the site on different devices i.e mobile tablet etc.
@@ -66,7 +65,7 @@ ___
 
 ***
 ## __Initial Concept__
-___
+
 I hope to deliever a website that is eye catching for the user with little to no distractions with the background or out of placed imagery/text. The site also needs to be easily navigated whether be on desktop, tablet or mobile devices.
 
 ### Wireframes
@@ -104,7 +103,6 @@ For the font pairings I used [Fontjoy](https://fontjoy.com/)
 
 ***
 ## __Features__
-___
 
 These elements appear in every page of the website as the user navigates through it.
 
@@ -148,7 +146,6 @@ ___
 - This video is in the gallery page and i have set it so that the user have to interact with the video to play and have sound. It is by default paused and muted.
 ***
 ## __Technologies Used__
-___
 
 ### Languages Used
 
@@ -165,13 +162,11 @@ ___
 
 ***
 ## __Testing__
-___
 
 [Testing](TESTING.md) (Seperate ReadMe)
 
 ***
 ## Bugs
-___
 
 ### Current Bugs
 
@@ -196,7 +191,6 @@ Fix: Gave both the elements a label.
 ***
 
 ## __Deployment__
-___
 
 ### GitHub Pages
 This site was deployed using GitHub Pages using these steps:
@@ -234,7 +228,6 @@ To Clone the repository:
 For more information about Forking, click on this [GitHub Guide](https://docs.github.com/en/github-ae@latest/get-started/quickstart/fork-a-repo).
 
 ## __Credits__
-___
 
  - Hero Image was inspired from the [Love Running](https://github.com/LesterCuasay/Love-Running-Essentials-Project) CI Project.
  - The script used to pass data from contact.html to thank-you.html can be found [here](https://stackoverflow.com/a/51123522).
