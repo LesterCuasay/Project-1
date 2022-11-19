@@ -6,9 +6,16 @@ GyMotivate hopes to encourage people to better themselves by taking up physical 
 
 ## Live Site
 [GyMotivate](https://lestercuasay.github.io/Project-1/)
-
+___
 ## Repository
 https://github.com/LesterCuasay/Project-1
+___
+
+## __Table of Contents__
+- [Objective](#Objective)
+- [Goals](#Goals)
+- [UX & #Design](#UX & #Design)
+
 
 ***
 ## __Objective__
@@ -97,6 +104,25 @@ ___
 ![footer](assets/docs/footer.png "footer")
 - The footer shows in every page and are linked to their corresponding social media websites for customers to stay up to date with our content.
 
+### Back to Top
+___
+
+![back-to-top](assets/docs/back-to-top.png "back-to-top")
+- This button in shown in every page that has to be scrolled; index.html, workout.html and gallery.html. This button is to make it easier for the user to get back to the top of the page without scrolling back to the top and locating the nav bar.
+### Contact Form
+___
+![contact-form](assets/docs/contact-form.png "contact-form")
+- The contact form lets you input your name, email and feedback. After information has been submitted it will take them to the thank-you.html page and will show them the information they submitted.
+
+### Back to Home
+___
+![back-home](assets/docs/back-home.png "back-home")
+ - In the thank-you.html page after using the contact form the user will be directed to this page, to make it easier for the user to get out of this page i have added a "Back Home" button to guide them back to the landing page.
+
+### Video 
+___
+![video](assets/docs/video.png "video")
+- This video is in the gallery page and i have set it so that the user have to interact with the video to play and have sound. It is by default paused and muted.
 ***
 ## __Technologies Used__
 ___
