@@ -12,10 +12,33 @@ https://github.com/LesterCuasay/Project-1
 ___
 
 ## __Table of Contents__
-- [Objective](#Objective)
-- [Goals](#Goals)
-- [UX & #Design](#UX & #Design)
-
+- [Objective](#objective)
+- [Goals](#goals)
+- [UX & Design](#ux--design)
+    - [User Stories](#user-stories)
+- [Initial Concept](#initial-concept)
+    - [Wireframs](#wireframes)
+    - [Colour Scheme](#colour-scheme)
+    - [Typography](#typography)
+- [Features](#features)
+    - [Logo and Navigation Bar](#logo-and-navigation-bar)
+    - [Main Image](#main-image)
+    - [Footer](#footer)
+    - [Back to Top](#back-to-top)
+    - [Contact Form](#contact-form)
+    - [Back to Home](#back-to-home)
+    - [Video](#video)
+- [Technologies Used](#technologies-used)
+    - [Languages Used](#languages-used)
+- [Testing](#testing)
+- [Bugs](#bugs)
+    - [Current Bugs](#current-bugs)
+    - [Resolved Bugs](#resolved-bugs)
+- [Deployment](#deployment)
+    - [GitHub Pages](#github-pages)
+    - [Forking the GitHub Repository](#forking-the-github-repository)
+    - [Making a Local Clone](#making-a-local-clone)
+- [Credits](#credits)
 
 ***
 ## __Objective__
@@ -184,8 +207,8 @@ This site was deployed using GitHub Pages using these steps:
 4. On the Branch where it says "None" click the drop down and click select "Main" and click save.
 5. The page will automatically refresh.
 6. A notification will appear at the top of the settings page with a [link](https://lestercuasay.github.io/Project-1/) to the deplyed site. You can return to this GitHub Pages section to access the link.
-
-### Forking the Github Repository
+___
+### Forking the GitHub Repository
 
 Forks are used to be able to change someone else's project as your own idea. By forking the Github Respository you make a copy of the original on your GitHub account to view/or make changes without affecting the original repository.
 
@@ -193,7 +216,7 @@ To Fork a Github Repository:
 1. Log in to GitHub and go to the project [GitHub Repository](https://github.com/LesterCuasay?tab=repositories)
 2. Locate the Fork button in the top-right corner of the page and click Fork.
 3. You should now have a copy of the original repository in your GitHub Account.
-
+___
 ### Making a Local Clone
 
 To Clone the repository: 
