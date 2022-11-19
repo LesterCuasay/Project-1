@@ -85,7 +85,7 @@ To make sure that my website is running as intended, I will be using different t
 ***
 ## __Thank-you (thank-you.html)__
 
-[thank-you.html](https://lestercuasay.github.io/Project-1/thank-you.html?name=Lester+&email=lestercuasay%40live.co.uk&feedback=&confirm=confirm)
+[thank-you.html](hhttps://lestercuasay.github.io/Project-1/thank-you.html)
 
 ### PC
 ![lighthouse-thank-you](assets/docs/lighthouse-thank-you.png "light-house-thankyou")
